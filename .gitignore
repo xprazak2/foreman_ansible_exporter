@@ -1,0 +1,11 @@
+tags
+.idea/
+Gemfile.lock
+.rbenv*
+.rvmrc*
+.ruby-*
+.bundle
+pkg/
+test/tmp/*
+/tmp/
+*swp

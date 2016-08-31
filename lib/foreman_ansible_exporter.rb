@@ -1,0 +1,2 @@
+module ForemanAnsibleExporter
+end

@@ -9,7 +9,7 @@ module ForemanAnsibleExporter
       @role_folders = %w(tasks meta vars templates handlers defaults files)
     end
 
-    def export
+    def roles
       roles = all_roles.map do |role_name|
         role_files role_name
       end
